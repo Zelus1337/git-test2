@@ -1,0 +1,5 @@
+eventy(id_event, nazwa, data, miejsce, id_kontrahenta, id_rozliczenia, przychod, koszty, odwolano, powod_odwolania)
+kontrahenci(id_kontrahenta, nazwa)
+pracownicy(id_pracownika, imie, nazwisko, data_urodzenia, pesel, nr_tel, pensja)
+dzialy(id_pracownika, dzial)
+rozliczenia(id_kontrahenta, id_event)
